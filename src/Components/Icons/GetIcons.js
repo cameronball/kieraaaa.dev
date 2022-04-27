@@ -9,6 +9,7 @@ import {
   FaGithub,
   FaMicrosoft,
   FaPaypal,
+  FaPinterest,
   FaSlack,
   FaTwitter,
   FaVimeo,
@@ -87,6 +88,8 @@ function GetIcons({ iconName, ...restProps }) {
       return <FaMicrosoft {...restProps} />
     case 'paypal':
       return <FaPaypal {...restProps} />
+    case 'pinterest':
+      return <FaPinterest {...restProps} />
     case 'polywork':
       return <SiPolywork {...restProps} />
     case 'search':

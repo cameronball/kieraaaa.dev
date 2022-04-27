@@ -1,0 +1,38 @@
+{
+  "name": "Kiera Ball",
+  "type": "personal",
+  "bio": "wishing I hadn't taken computer science gcse",
+  "avatar": "https://github.com/cameronball.png",
+  "links": [
+    {
+      "name": "Code (GitHub)",
+      "url": "https://github.com/cameronball",
+      "icon": "github"
+    },
+    {
+      "name": "Better Code (Repl.it)",
+      "url": "https://replit.com/@CameronBall",
+      "icon": "link"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com/kieraisverybored",
+      "icon": "instagram"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/kieraisbored",
+      "icon": "twitter"
+    },
+    {
+      "name": "Pinterest",
+      "url": "https://pin.it/59jz42N",
+      "icon": "pinterest"
+    },
+    {
+      "name": "My Search Engine",
+      "url": "https://obscrd.cameronball.repl.co",
+      "icon": "search"
+    }
+  ]
+}
