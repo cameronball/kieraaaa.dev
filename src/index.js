@@ -3,8 +3,10 @@ import ReactDOM from 'react-dom'
 import './index.css'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
-import request from 'request'
 
+var os = require("os")
+var hostname = os.hostname()
+comsole.log(hostname)
 if (request.headers.host === 'kieraaaa.xyz') {
   ReactDOM.render(
   <React.StrictMode>
