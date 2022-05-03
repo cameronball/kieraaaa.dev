@@ -3,17 +3,23 @@ import ReactDOM from 'react-dom'
 import './index.css'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
+const https = require("https");
 
-if (window.location.hostname === 'kieraaaa.xyz') {
-  ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root'),
-  )
-}
+const server = https.createServer(function (req, res) {});
 
-// res.redirect(301, 'https://kieraaaa.xyz/');
+server.listen(80, function () {
+  if (window.location.hostname === 'kieraaaa.xyz') {
+    ReactDOM.render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>,
+    document.getElementById('root'),
+    )
+  } else {
+    res.redirect(301, 'https://kieraaaa.xyz/');
+  }
+});
+
 // console.log('no dont includes domain_name in ', hostname);
 
 // If you want to start measuring performance in your app, pass a function
