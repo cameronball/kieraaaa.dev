@@ -6,6 +6,7 @@ import StyledLink from './StyledLink'
 import GetIcons from './Icons/GetIcons'
 import { IconContext } from 'react-icons/lib'
 import linksConfig from '../config/links.json'
+import 'footer.css'
 
 function Links({ links }) {
   const colors = linksConfig.validIcons
@@ -64,6 +65,7 @@ function Links({ links }) {
             </StyledLink>
           ))}
       </div>
+      <p className="hiddenText">organ donor  july 30  max johnson  max and keira law  joe ball road traffic accident  mum loanna  car crash  keira ball who died inspired by keira  organ donation  keira organ</p>
     </section>
   )
 }
