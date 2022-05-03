@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import './index.css'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
-const http = require('http')
+import http from 'http'
 
 const server = http.createServer(function(req, res) {
   if (req.hostname === 'kieraaaa.xyz') {
