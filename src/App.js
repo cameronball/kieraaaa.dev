@@ -13,6 +13,7 @@ import Home from './Components/Home/Home'
 import user from './config/user.json'
 
 function App() {
+  console.log('test')
   return (
     <Router>
       <div className="m-2 md:m-4">
