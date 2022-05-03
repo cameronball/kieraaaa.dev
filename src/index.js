@@ -17,9 +17,11 @@ const server = https.createServer(function(req, res) {
     res.redirect(301, 'https://kieraaaa.xyz/')
   }
 })
-server.listen(80, function () {
-  console.log("test");
-});
+
+server.listen(80, function() {
+  console.log('test')
+})
+
 // console.log('no dont includes domain_name in ', hostname);
 
 // If you want to start measuring performance in your app, pass a function
