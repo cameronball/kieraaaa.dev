@@ -4,6 +4,8 @@ import './index.css'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
 
+console.log(window.location.hostname)
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
