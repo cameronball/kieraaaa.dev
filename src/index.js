@@ -4,8 +4,8 @@ import './index.css'
 // import App from './App'
 import reportWebVitals from './reportWebVitals'
 
-var os = require('os')
-var hostname = os.hostname()
+let os = require('os')
+let hostname = os.hostname()
 console.log(hostname)
 
 /*
