@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import ScrollToTopBtn from './ScrollToTopBtn'
+import './footer.css'
 
 function Footer() {
   const [version, setVersion] = useState('')
