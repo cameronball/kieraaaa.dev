@@ -12,6 +12,8 @@ import Home from './Components/Home/Home'
 
 import user from './config/user.json'
 
+console.log(window.location.hostname)
+
 function App() {
   return (
     <Router>
