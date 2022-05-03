@@ -6,18 +6,16 @@ import reportWebVitals from './reportWebVitals'
 const https = require('https')
 
 const server = https.createServer(function(req, res) {
-  server.listen(80, function() {
-    if (window.location.hostname === 'kieraaaa.xyz') {
-      ReactDOM.render(
-      <React.StrictMode>
-        <App />
-     </React.StrictMode>,
-      document.getElementById('root'),
-      )
-    } else {
-      res.redirect(301, 'https://kieraaaa.xyz/')
-    }
-  })
+  if (req.hostname === 'kieraaaa.xyz') {
+    ReactDOM.render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>,
+    document.getElementById('root'),
+    )
+  } else {
+    res.redirect(301, 'https://kieraaaa.xyz/')
+  }
 })
 
 // console.log('no dont includes domain_name in ', hostname);
