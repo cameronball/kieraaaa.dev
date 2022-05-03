@@ -4,10 +4,11 @@ import './index.css'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
 
-var os = require("os")
+var os = require('os')
 var hostname = os.hostname()
-comsole.log(hostname)
-if (request.headers.host === 'kieraaaa.xyz') {
+console.log(hostname)
+
+if ('test' === 'kieraaaa.xyz') {
   ReactDOM.render(
   <React.StrictMode>
     <App />
