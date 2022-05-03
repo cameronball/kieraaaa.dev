@@ -6,7 +6,7 @@ import StyledLink from './StyledLink'
 import GetIcons from './Icons/GetIcons'
 import { IconContext } from 'react-icons/lib'
 import linksConfig from '../config/links.json'
-import 'footer.css'
+import './footer.css'
 
 function Links({ links }) {
   const colors = linksConfig.validIcons
