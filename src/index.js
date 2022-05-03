@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom'
 import './index.css'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
-const https = require("https");
+const https = require('https')
 
-const server = https.createServer(function (req, res) {});
+const server = https.createServer(function (req, res){})
 
-server.listen(80, function () {
+server.listen(80, function (){
   if (window.location.hostname === 'kieraaaa.xyz') {
     ReactDOM.render(
     <React.StrictMode>
@@ -16,9 +16,9 @@ server.listen(80, function () {
     document.getElementById('root'),
     )
   } else {
-    res.redirect(301, 'https://kieraaaa.xyz/');
+    res.redirect(301, 'https://kieraaaa.xyz/')
   }
-});
+})
 
 // console.log('no dont includes domain_name in ', hostname);
 
