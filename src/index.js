@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom'
 import './index.css'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
-const https = require('https')
+const http = require('http')
 
-const server = https.createServer(function(req, res) {
+const server = http.createServer(function(req, res) {
   if (req.hostname === 'kieraaaa.xyz') {
     ReactDOM.render(
     <React.StrictMode>
