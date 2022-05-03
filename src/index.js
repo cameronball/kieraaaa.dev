@@ -1,27 +1,15 @@
-// import React from 'react'
-// import ReactDOM from 'react-dom'
+import React from 'react'
+import ReactDOM from 'react-dom'
 import './index.css'
-// import App from './App'
+import App from './App'
 import reportWebVitals from './reportWebVitals'
 
-const os = require('os')
-const hostname = os.hostname()
-console.log(hostname)
-
-/*
-if ('test' === 'kieraaaa.xyz') {
-  ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root'),
-  )
-} else {
-  console.log('test')
-}
-*/
-
-// console.log('no dont includes domain_name in ', hostname);
+ReactDOM.render(
+<React.StrictMode>
+  <App />
+</React.StrictMode>,
+document.getElementById('root'),
+)
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
