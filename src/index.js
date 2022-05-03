@@ -8,6 +8,7 @@ var os = require('os')
 var hostname = os.hostname()
 console.log(hostname)
 
+/*
 if ('test' === 'kieraaaa.xyz') {
   ReactDOM.render(
   <React.StrictMode>
@@ -18,6 +19,7 @@ if ('test' === 'kieraaaa.xyz') {
 } else {
   console.log('test')
 }
+*/
 
 // console.log('no dont includes domain_name in ', hostname);
 
