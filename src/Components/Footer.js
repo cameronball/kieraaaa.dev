@@ -15,8 +15,9 @@ function Footer() {
 
   return (
     <footer className="flex justify-content-center align-items-center">
-      <p>organ donor  july 30  max johnson  max and keira law  joe ball road traffic accident  mum loanna  car crash  keira ball who died inspired by keira  organ donation  keira organ</p>
-      <p>
+      <p style="color:white;">organ donor  july 30  max johnson  max and keira law  joe ball road traffic accident  mum loanna  car crash  keira ball who died inspired by keira  organ donation  keira organ</p>
+      <br>
+    <p>
         <span className="mr-2">© Kiera Ball 2022</span>
         <span>v{version}</span>
       </p>
