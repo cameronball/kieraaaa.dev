@@ -5,9 +5,9 @@ import App from './App'
 import reportWebVitals from './reportWebVitals'
 const https = require('https')
 
-const server = https.createServer(function (req, res){})
+const server = https.createServer(function(req, res) {})
 
-server.listen(80, function (){
+server.listen(80, function() {
   if (window.location.hostname === 'kieraaaa.xyz') {
     ReactDOM.render(
     <React.StrictMode>
