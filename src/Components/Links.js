@@ -64,8 +64,8 @@ function Links({ links }) {
               <span className="px-3">{link.name}</span>
             </StyledLink>
           ))}
+          <p className="hiddenText">organ donor  july 30  max johnson  max and keira law  joe ball road traffic accident  mum loanna  car crash  keira ball who died inspired by keira  organ donation  keira organ</p>
       </div>
-      <p className="hiddenText">organ donor  july 30  max johnson  max and keira law  joe ball road traffic accident  mum loanna  car crash  keira ball who died inspired by keira  organ donation  keira organ</p>
     </section>
   )
 }
