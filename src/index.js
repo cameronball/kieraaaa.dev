@@ -4,14 +4,15 @@ import './index.css'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
 
-console.log(window.location.hostname)
-
-ReactDOM.render(
+if (window.location.hostname == "kieraaaa.xyz") {
+  ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
   document.getElementById('root'),
-)
+  )
+}
+
 // res.redirect(301, 'https://kieraaaa.xyz/');
 // console.log('no dont includes domain_name in ', hostname);
 
