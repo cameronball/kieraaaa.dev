@@ -4,6 +4,9 @@ import './index.css'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
 
+const currentUrl = req.get("host");
+console.log(currentUrl)
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
