@@ -3,24 +3,18 @@ import ReactDOM from 'react-dom'
 import './index.css'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
-import http from 'http'
+import request from 'request'
 
-const server = http.createServer(function(req, res) {
-  if (req.hostname === 'kieraaaa.xyz') {
-    ReactDOM.render(
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>,
-    document.getElementById('root'),
-    )
-  } else {
-    res.redirect(301, 'https://kieraaaa.xyz/')
-  }
-})
-
-server.listen(80, function() {
+if (request.headers.host === 'kieraaaa.xyz') {
+  ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root'),
+  )
+} else {
   console.log('test')
-})
+}
 
 // console.log('no dont includes domain_name in ', hostname);
 
