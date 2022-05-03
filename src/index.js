@@ -4,7 +4,7 @@ import './index.css'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
 
-if (window.location.hostname == "kieraaaa.xyz") {
+if (window.location.hostname === 'kieraaaa.xyz') {
   ReactDOM.render(
   <React.StrictMode>
     <App />
