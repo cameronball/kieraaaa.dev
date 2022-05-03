@@ -24,7 +24,7 @@
     "lint": "eslint public/data src --ext [.json,.js]",
     "prestart": "npm run generate",
     "start": "PORT=80 react-scripts start",
-    "start:prod": "serve -s build",
+    "start:prod": "PORT=80 serve -s build",
     "build": "npm run generate && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
