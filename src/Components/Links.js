@@ -64,6 +64,12 @@ function Links({ links }) {
               <span className="px-3">{link.name}</span>
             </StyledLink>
           ))}
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
           <p>
           Kiera Ball aka Kieraaaa is a computer science student and a software developer learning to program and code in a variety of different languages. These languages include HTML, Javascript, React, Python and many more. Kiera is also known as kieraisverybored on some social media platforms such as twitter and pinterest aka pintrest and youtube and instagram this website also includes her search engine called obscrd which is very good.
           </p>
