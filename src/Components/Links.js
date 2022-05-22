@@ -64,7 +64,7 @@ function Links({ links }) {
               <span className="px-3">{link.name}</span>
             </StyledLink>
           ))}
-          <p>Kiera Ball aka Kieraaaa is a computer science student and a software developer learning to program and code in a variety of different languages. These languages include HTML, Javascript, React, Python and many more. Kiera is also known as kieraisverybored on some social media platforms such as twitter and pinterest aka pintrest and youtube and instagram this website also includes Kiera's search engine called obscrd which is very good.</p>
+          <p>Kiera Ball aka Kieraaaa is a computer science student and a software developer learning to program and code in a variety of different languages. These languages include HTML, Javascript, React, Python and many more. Kiera is also known as kieraisverybored on some social media platforms such as twitter and pinterest aka pintrest and youtube and instagram this website also includes Kiera&apos;s search engine called obscrd which is very good.</p>
           <p className="hiddenText">organ donor  july 30  max johnson  max and keira law  joe ball road traffic accident  mum loanna  car crash  keira ball who died inspired by keira  organ donation  keira organ</p>
       </div>
     </section>
