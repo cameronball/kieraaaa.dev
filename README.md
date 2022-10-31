@@ -1,3 +1,5 @@
+A bad fork of linkfree for my personal website; doesnt work and got shadow banned on google :)))
+
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree)
 
 # LinkFree by EddieHub
